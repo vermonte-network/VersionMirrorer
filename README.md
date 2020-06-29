@@ -7,3 +7,7 @@ Can now monitor Mojira JE versions (so we can get even more accurate release tim
 Usage:
 launch the jar by using java -jar VersionMirrorer-v1.0.4.jar command.
 It's gonna mirror every version at the first run, so be patient.
+
+Maintained by Moresteck & DireMaster
+
+(Project made for Omniarchive)
