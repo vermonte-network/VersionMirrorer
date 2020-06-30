@@ -5,7 +5,7 @@ public class CheckMojiraThread extends Thread {
    public static long scanTimes = 0L;
   
    public void run() {
-	 String mojiraindex = CheckNewestThread.scanJsun("https://bugs.mojang.com/rest/api/2/project/MC/versions");
+     String mojiraindex = CheckNewestThread.scanJsun("https://bugs.mojang.com/rest/api/2/project/MC/versions");
      String lastSelf = mojiraindex;
      int index = 0;
      while ((index = lastSelf.indexOf("\"self\":")) > -1) {
