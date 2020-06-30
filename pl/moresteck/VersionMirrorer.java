@@ -54,14 +54,14 @@
    }
    
    public static void logversions(String message) {
-	     System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
-	     logToFile(manifestlogfile, message);
-	}
+         System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
+         logToFile(manifestlogfile, message);
+   }
    
    public static void logerrors(String message) {
-	     System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
-	     logToFile(errorlogfile, message);
-	}
+         System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
+         logToFile(errorlogfile, message);
+   }
    
    public static void logToFile(String file, String message) {
      try {
