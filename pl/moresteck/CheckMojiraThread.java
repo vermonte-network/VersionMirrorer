@@ -41,6 +41,14 @@ public class CheckMojiraThread extends Thread {
        if (lastid.equals(id)) {
            VersionMirrorer.log("A change in Mojira has been spotted: " + id);
            VersionMirrorer.logmojira("A change in Mojira has been spotted: " + id);
+           if (released == "true") {
+        	   VersionMirrorer.log("Oh Boy, a new version has been released");
+               VersionMirrorer.logmojira("Oh Boy, a new version has been released");
+           }
+           if (archived == "true") {
+        	   VersionMirrorer.log("Another version for archiving");
+               VersionMirrorer.logmojira("Another version for archiving");
+           }
        }
        else {
     	   VersionMirrorer.log("A NEW entry in Mojira has been spotted: " + id);
