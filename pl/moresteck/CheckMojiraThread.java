@@ -53,7 +53,6 @@ public class CheckMojiraThread extends Thread {
        else {
     	   VersionMirrorer.log("A NEW entry in Mojira has been spotted: " + id);
     	   VersionMirrorer.logmojira("A NEW entry in Mojira has been spotted: " + id);
-
        }
        // Logs output to main log
        VersionMirrorer.log("Self: " + self);
