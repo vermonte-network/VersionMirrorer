@@ -44,13 +44,13 @@
    }
    
    public static void log(String message) {
-     System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
-     logToFile(defaultLogFile, message);
+         System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
+         logToFile(defaultLogFile, message);
    }
    
    public static void logmojira(String message) {
-	     System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
-	     logToFile(mojiralogfile, message);
+         System.out.println(String.valueOf((new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss] ")).format(Long.valueOf(System.currentTimeMillis()))) + message);
+         logToFile(mojiralogfile, message);
    }
    
    public static void logversions(String message) {
